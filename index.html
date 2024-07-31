@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta width="device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img src="https://cdn.pixabay.com/photo/2023/09/22/15/45/panda-8269335_1280.png" alt="panda-logo" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#video">Video</a></li>
+                <li><a class="nav-link" href="#form">Form</a></li>
+                <li><a class="nav-link" href="#submit">Submit</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="img-video-grid">
+            <video id="video" src="https://cdn.pixabay.com/video/2016/02/29/2340-157269921_large.mp4" type="video/mp4" controls loop></video>
+        </section>
+
+        <section>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <label><a>Please enter your e-mail address to receive more information about our product:<br></a></label><input type="email" id="email" name="email" placeholder="Enter your e-mail address" required />
+                <input type="submit" id="submit" value="Submit" />
+            </form>
+        </section>
+    </main>
+</body>
+</html>
